@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Le Distracteur 1.0",
+    "version": "1.0",
+    "description": "Affiche des messages aléatoires à intervalles réguliers.",
+    "permissions": [
+        "tabs",
+        "activeTab", 
+        "storage",
+        "notifications",
+        "webNavigation",
+        "webRequest",
+        "contextMenus",
+        "unlimitedStorage",
+        "storage",
+        "declarativeContent",
+        "background"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "Images/devil.png"
+    },
+    "icons": {
+        "16": "Images/devil.png",
+        "32": "Images/devil.png",
+        "128": "Images/devil.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

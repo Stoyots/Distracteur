@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Popup Distracteur</title>
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1 id="message">Le Distracteur 1.0 <img id="Copyright" src="./Images/copyright.png" alt="copyright"><img
+                id="devil" src="images/devil.png" title="MOOOUUHahAAHHhaahahaha" alt="tete de diable">
+            <h2 id=Credits>by Julie, Remi and Tom</h2>
+        </h1>
+        <div id="options">
+            <button title="genere une video distrayante" id="videoOption"><img src="./Images/video.png" alt="videoIcon"
+                    id="VideoIcon">Videos</button>
+            <button title="genere une musique distrayante" id="musiqueOption"><img src="./Images/music.png"
+                    alt="MusiqueIcon" id="MusiqueIcon">Musiques</button>
+            <button title="genere un article distrayante" id="articleOption"><img src="./Images/article.png"
+                    alt="ArticleIcon" id="ArticleIcon">Articles</button>
+            <button title="genere un jeux distrayant" id="jeuxOption"><img src="./Images/game.png" alt="JeuxIcon"
+                    id="JeuxIcon">Jeux</button>
+            <button title="genere une image distrayant" id="imageOption"><img src="./Images/image.png" alt="ImageIcon"
+                    id="ImageIcon">Images</button>
+            <button title="genere une annecdote distrayante" id="anecdoteOption"><img src="./Images/annecdote.png"
+                    alt="AnecdoteIcon" id="AnecdoteIcon">Anecdotes</button>
+        </div>
+        <div id="like">
+            <button title="Ajoute ce lien a tes favoris" id="likeBtn"><img id="thumbs-up" src="./images/thumbs-up.png"
+                    alt="thumbs-up"></button>
+            <select id="likedResourcesDropdown">
+                <option id="dropdown-content" value="default">Favoris</option>
+            </select>
+            <button title="Supprime le dernier lien de la liste" id="dislikeBtn"><img id="trashcan"
+                    src="./images/trashcan.png" alt="trashcan"></button>
+            <button title="Soumettre des liens" id="Soumettre">Soumettre</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
